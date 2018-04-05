@@ -1,0 +1,46 @@
+body {
+	font-family: monospace;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#navigationRow1 {
+	margin-top: 10px;
+}
+
+#navigationRow1Col1Img {
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+	height: 3em;
+}
+
+.navPara {
+	padding-top: 10px;
+}
+
+#navigationRow1Col3Ul {
+	padding-top: 10px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+ .navigationRow1Col3li {
+	display: inline;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+ .navigationRow1Col3li a:hover {
+ 	color: green;
+ 	text-decoration: none;
+}
