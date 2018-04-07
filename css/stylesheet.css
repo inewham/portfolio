@@ -32,17 +32,19 @@ a:hover {
 }
 
 #welcomemain {
-	margin-top: 5em;
+	margin-top: 12em;
 }
 
 #welcomemainImg {
 	border: 10px solid darkgreen;
 	border-radius: 50%;
+	height: 20em;
+	width: auto;
 }
 
 #welcomemainImgdesc {
 	margin-top: 1.5em;
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
 }
 
@@ -51,4 +53,10 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+#portfolio,
+#contact,
+#about {
+	padding-top: 15em;
 }
