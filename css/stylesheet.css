@@ -57,7 +57,8 @@ a:hover {
 
 #portfolio,
 #contact,
-#about {
+#about,
+#bodyFooter {
 	padding-top: 15em;
 }
 
@@ -68,4 +69,17 @@ a:hover {
 	padding: 1em;
 	border-top: 1px solid darkgreen;
 	border-bottom: 1px solid darkgreen;
+}
+
+#footerContainer {
+	background-color: #000000;
+	padding: 1em;
+	border-top: 1px solid darkgreen;
+	text-align: center;
+}
+
+#facebook {
+	border: 2px solid darkgreen;
+	padding: 5px;
+	border-radius: 50%;
 }
