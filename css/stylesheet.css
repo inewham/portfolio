@@ -60,3 +60,12 @@ a:hover {
 #about {
 	padding-top: 15em;
 }
+
+#portfolioContainer,
+#contactContainer,
+#aboutContainer {
+	background-color: #000000;
+	padding: 1em;
+	border-top: 1px solid darkgreen;
+	border-bottom: 1px solid darkgreen;
+}
