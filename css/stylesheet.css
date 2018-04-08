@@ -55,6 +55,10 @@ a:hover {
     width: 50%;
 }
 
+#portfolioContainer {
+	text-align: center;
+}
+
 #portfolio,
 #contact,
 #about,
@@ -78,8 +82,22 @@ a:hover {
 	text-align: center;
 }
 
-#facebook {
+footer {
+	margin-top: 1em;
+}
+
+#github,
+#facebook,
+#linkedin {
 	border: 2px solid darkgreen;
-	padding: 5px;
+	margin: 5px;
+	padding: 5px 8px 5px 8px;
 	border-radius: 50%;
+}
+
+#einstein,
+#gallery,
+#pes {
+	height: 10em;
+	width: auto;
 }
