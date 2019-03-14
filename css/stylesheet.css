@@ -1,103 +1,109 @@
 body {
-	font-family: monospace;
-	background-color: #000000;
-	color: #FFFFFF;
-	background: url('https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif');
+  font-family: monospace;
+  background-color: #000000;
+  color: #ffffff;
+  background: url("https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif");
 }
 
 #navImg {
-	border-radius: 50%;
-	height: 30px;
+  border-radius: 50%;
+  height: 30px;
 }
 
 a {
-	color: #FFFFFF;
+  color: #ffffff;
+}
+
+#morphius,
+#navbarLogo {
+  cursor: default;
 }
 
 a:hover {
-	color: green;
+  color: green;
 }
 
-.navbar, .navbar-toggler {
-	background-color: #FFFFFF;
+.navbar,
+.navbar-toggler {
+  background-color: #ffffff;
 }
 
 .navbar {
-	background-color: #000000 !important;
+  background-color: #000000 !important;
 }
 
 .navbar-toggler:hover {
-	background-color: green;
-	color: #FFFFFF;
+  background-color: green;
+  color: #ffffff;
 }
 
 #welcomemain {
-	margin-top: 12em;
+  margin-top: 12em;
 }
 
 #welcomemainImg {
-	border: 10px solid darkgreen;
-	border-radius: 50%;
-	height: 20em;
-	width: auto;
+  border: 10px solid darkgreen;
+  border-radius: 50%;
+  height: 22rem;
+  width: auto;
 }
 
 #welcomemainImgdesc {
-	margin-top: 1.5em;
-	font-size: 18px;
-	text-align: center;
+  margin-top: 1.5em;
+  font-size: 18px;
+  text-align: center;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #portfolioContainer {
-	text-align: center;
+  text-align: center;
 }
 
 #portfolio,
 #contact,
 #about,
 #bodyFooter {
-	padding-top: 15em;
+  padding-top: 15em;
 }
 
 #portfolioContainer,
 #contactContainer,
 #aboutContainer {
-	background-color: #000000;
-	padding: 1em;
-	border-top: 1px solid darkgreen;
-	border-bottom: 1px solid darkgreen;
+  background-color: #000000;
+  padding: 1em;
+  border-top: 1px solid darkgreen;
+  border-bottom: 1px solid darkgreen;
 }
 
 #footerContainer {
-	background-color: #000000;
-	padding: 1em;
-	border-top: 1px solid darkgreen;
-	text-align: center;
+  background-color: #000000;
+  padding: 1em;
+  border-top: 1px solid darkgreen;
+  text-align: center;
 }
 
 footer {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 #github,
 #facebook,
 #linkedin {
-	border: 2px solid darkgreen;
-	margin: 5px;
-	padding: 5px 8px 5px 8px;
-	border-radius: 50%;
+  border: 2px solid darkgreen;
+  margin: 5px;
+  padding: 5px 8px 5px 8px;
+  border-radius: 50%;
 }
 
 #einstein,
 #gallery,
 #pes {
-	height: 100px;
-	width: auto;
+  height: 100px;
+  width: auto;
 }
