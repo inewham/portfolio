@@ -2,7 +2,15 @@ body {
   font-family: monospace;
   background-color: #000000;
   color: #ffffff;
+  /* background: url("https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif"); */
+}
+
+.parallex {
   background: url("https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #navImg {
@@ -38,7 +46,7 @@ a:hover {
 }
 
 #welcomemain {
-  margin-top: 12em;
+  padding-top: 12em;
 }
 
 #welcomemainImg {

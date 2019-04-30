@@ -70,150 +70,153 @@
         </ul>
       </div>
     </nav>
+    <div class="parallex">
+      <!-- Welcome Section -->
+      <div id="welcomemain" class="container">
+        <a id="morphius" href="#"
+          ><img
+            id="welcomemainImg"
+            class="center"
+            src="images/kia_rabbit_hole.gif"
+            onmouseover="this.src='images/morphius.gif'"
+            onmouseout="this.src='images/kia_rabbit_hole.gif'"
+            border="0"
+          />
+        </a>
+      </div>
+      <div id="welcomemainImgdesc" class="container">
+        <!-- <strong>Are you ready to tumble down the rabbit hole?</strong> -->
+        <strong>Follow the rabbit!</strong>
+      </div>
 
-    <!-- Welcome Section -->
-    <div id="welcomemain" class="container">
-      <a id="morphius" href="#"
-        ><img
-          id="welcomemainImg"
-          class="center"
-          src="images/kia_rabbit_hole.gif"
-          onmouseover="this.src='images/morphius.gif'"
-          onmouseout="this.src='images/kia_rabbit_hole.gif'"
-          border="0"
-        />
-      </a>
-    </div>
-    <div id="welcomemainImgdesc" class="container">
-      <!-- <strong>Are you ready to tumble down the rabbit hole?</strong> -->
-      <strong>Follow the rabbit!</strong>
-    </div>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-      <div id="portfolioContainer">
-        <div class="center">
-          <h1>Portfolio</h1>
-          <a href="https://codepen.io/inewham/full/aYGVrG/" target="_blank"
-            ><img
-              id="einstein"
-              src="images/freeCodeCampTribute.png"
-              alt="website thumbnail"
-          /></a>
-          <a href="https://inewham.github.io/GalleryChallenge/" target="_blank"
-            ><img
-              id="gallery"
-              src="images/gallerychallenge.png"
-              alt="website thumbnail"
-          /></a>
-          <a href="https://pes-dev.saiyansolutions.com/" target="_blank"
-            ><img id="pes" src="images/pes.png" alt="website thumbnail"
-          /></a>
+      <!-- Portfolio Section -->
+      <section id="portfolio">
+        <div id="portfolioContainer">
+          <div class="center">
+            <h1>Portfolio</h1>
+            <a href="https://codepen.io/inewham/full/aYGVrG/" target="_blank"
+              ><img
+                id="einstein"
+                src="images/freeCodeCampTribute.png"
+                alt="website thumbnail"
+            /></a>
+            <a
+              href="https://inewham.github.io/GalleryChallenge/"
+              target="_blank"
+              ><img
+                id="gallery"
+                src="images/gallerychallenge.png"
+                alt="website thumbnail"
+            /></a>
+            <a href="https://pes-dev.saiyansolutions.com/" target="_blank"
+              ><img id="pes" src="images/pes.png" alt="website thumbnail"
+            /></a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- About Section -->
-    <section id="about">
-      <div id="aboutContainer">
-        <h1>About</h1>
-        <p>
-          Co-founder of Saiyan Solutions, a technology solutions provider. I am
-          a life long student of a number of technologies. Starting a career in
-          IT in 2001, with over 17 years of support experience; the time has
-          come to become creative with a medium of my field.<br />
-          Embarking on the FreeCodeCamp web developers course to learn the
-          required skills, in an easy to learn and structured way.<br />
-          With a focus on front-end development and UX/UI design, the time has
-          come to see how far the rabbit hole goes!
-        </p>
-      </div>
-    </section>
+      <!-- About Section -->
+      <section id="about">
+        <div id="aboutContainer">
+          <h1>About</h1>
+          <p>
+            Co-founder of Saiyan Solutions, a technology solutions provider. I
+            am a life long student of a number of technologies. Starting a
+            career in IT in 2001, with over 17 years of support experience; the
+            time has come to become creative with a medium of my field.<br />
+            Embarking on the FreeCodeCamp web developers course to learn the
+            required skills, in an easy to learn and structured way.<br />
+            With a focus on front-end development and UX/UI design, the time has
+            come to see how far the rabbit hole goes!
+          </p>
+        </div>
+      </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <div id="contactContainer">
-        <h1>Contact Me</h1>
+      <!-- Contact Section -->
+      <section id="contact">
+        <div id="contactContainer">
+          <h1>Contact Me</h1>
 
-        <form>
-          <div class="form-group">
-            <div class="row">
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="First name"
-                />
+          <form>
+            <div class="form-group">
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First name"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                  />
+                </div>
               </div>
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Last name"
-                />
-              </div>
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
             </div>
-            <label for="exampleInputEmail1">Email address</label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >We'll never share your email with anyone else.</small
-            >
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-              placeholder="Password"
-            />
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message:</label>
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    </section>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message:</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
 
-    <!-- Footer Section -->
-    <section id="bodyFooter">
-      <div id="footerContainer">
-        <a id="github" href="https://github.com/inewham" target="_blank"
-          ><i class="fab fa-github-square"></i
-        ></a>
-        <a
-          id="facebook"
-          href="https://www.facebook.com/israel.newham"
-          target="_blank"
-          ><i class="fab fa-facebook-square"></i
-        ></a>
-        <a
-          id="linkedin"
-          href="https://uk.linkedin.com/in/israel-newham-302006100"
-          target="_blank"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <footer>
-          Saiyan Solutions, &copy; 2016<script>
-            new Date().getFullYear() > 2010 &&
-              document.write("-" + new Date().getFullYear());</script
-          >. All Rights Reserved.
-        </footer>
-      </div>
-    </section>
-
+      <!-- Footer Section -->
+      <section id="bodyFooter">
+        <div id="footerContainer">
+          <a id="github" href="https://github.com/inewham" target="_blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
+          <a
+            id="facebook"
+            href="https://www.facebook.com/israel.newham"
+            target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a
+            id="linkedin"
+            href="https://uk.linkedin.com/in/israel-newham-302006100"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <footer>
+            Saiyan Solutions, &copy; 2016<script>
+              new Date().getFullYear() > 2010 &&
+                document.write("-" + new Date().getFullYear());</script
+            >. All Rights Reserved.
+          </footer>
+        </div>
+      </section>
+      <!-- End of parallex-->
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
